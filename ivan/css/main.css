@@ -1,0 +1,365 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.padding-top {
+    padding-top: 7px;
+}
+
+.center {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Bootstrap */
+.input-group-text-dop {
+    width: 257px;
+    border-radius: 10px;
+}
+
+/* Carusel */
+.carusel-okruglenie {
+    border-radius: 15px;
+}
+
+/* Const */
+.podcherk {
+    border-bottom: 2px solid white;
+}
+
+.otstup-button {
+    /* margin-top: 50px; */
+    padding-top: 50px;
+}
+
+.red-color {
+    color: red;
+}
+
+.pobelka {
+    color: white;
+}
+
+.margin-auto {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.pobelka {
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #008B8B;
+    padding-bottom: 100px;
+}
+
+.header-knp {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: none;
+    width: 150px;
+
+    &:hover {
+        color: black;
+        background: grey;
+    }
+}
+
+.header-button {
+    background: red;
+    border-radius: 20px;
+    height: 20px;
+    width: 200px;
+
+}
+
+.header-center-knopki {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+.header-logo {
+    margin-top: 25px;
+}
+
+.header-name-user {
+    margin-top: auto;
+    margin-bottom: auto;
+    border-bottom: 1px black solid;
+}
+
+/* Login */
+.section-login {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+/* Register */
+.body-register {
+    height: 300px;
+}
+
+.register-padding-top {
+    padding-top: 30px;
+}
+
+.register-h1 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.register-padding-top {
+    padding-top: 50px;
+}
+
+/* Osnova */
+.section-1 {
+    padding-top: 30px;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-1-h1 {
+    padding-top: 50px;
+}
+
+.section-1-yacheika {
+    margin-left: 10px;
+}
+
+.section-1-yacheika-img {
+    /*	height: 1000px; */
+    /*	width: 150px; */
+    border-radius: 0px 0px 5px 5px;
+}
+
+.section-1-yacheika-p {
+    margin-top: 10px;
+}
+
+.section-1-yacheika-p-background {
+    background: #ba2323;
+    border-radius: 30px;
+    /*height: 25px;*/
+    width: 40%;
+}
+
+.section-1-margin1 {
+    margin-top: 10px;
+}
+
+.section-1-margin2 {
+    margin-top: 20px;
+}
+
+.section-1-margin3 {
+    margin-top: 15px;
+}
+
+.section-1-font-size-p {
+    font-size: 12px;
+}
+
+.section-1-button {
+    background: #6916f0;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 200px;
+    cursor: pointer;
+
+    &:hover {
+        background: #668fcc;
+    }
+}
+
+.section-1-warning {
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+.section-1-background-warning {
+    background: #6916f0;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+/* Бронирование */
+.bronirovanie-section-1 {
+    padding-top: 100px;
+    margin-left: 100px;
+}
+
+.bronirovanie-section-1-margin-bottom {
+    margin-bottom: 50px;
+}
+
+.bronirovanie-section-1-image {
+    width: 350px;
+    height: 500px;
+}
+
+/* Section 2 */
+.section-2 {
+    padding-top: 100px;
+}
+
+.section-2-input {}
+
+.section-2-input-button {
+    width: 200px !important;
+    height: 50px !important;
+    border-radius: 30px !important;
+}
+
+/* footer */
+footer {
+    padding-top: 500px;
+    width: 100%;
+}
+
+
+.footer-h1-background {
+    width: 382px;
+    height: 54px;
+    background: white;
+    border-radius: 20px;
+}
+
+.footer-padding-top {
+    padding-top: 30px;
+}
+
+
+.footer-nap {
+    background-image: url("../img/static/revert_car.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.footer-small {
+    width: 70%;
+    background-color: #abbaba;
+    color: #000;
+    ;
+}
+
+.footer-padding-top2 {
+    padding-top: auto;
+    padding-bottom: 10px;
+}
+
+/* Admin */
+.form-size-admin {
+    padding-top: 30px;
+    width: 50%;
+}
+
+.form-padding-admin {
+    padding-top: 15px;
+}
+
+.form-padding-bottom-admin {
+    padding-bottom: 15px;
+}
+
+.bronirovavshie {
+    padding-top: 50px;
+}
+
+/* Shablons */
+.section-1-shablons {
+    padding-top: 50px;
+}
+
+.section-1-start {
+    margin-left: 100px;
+}
+
+.section-1-end {
+    margin-right: 100px;
+}
+
+.section-1-img {
+    width: 1000px;
+    height: 800px;
+    border-radius: 10px;
+}
+
+.section-1-light-margin-left {
+    margin-left: 20px;
+}
+
+.section-1-shablons-h1 {
+    text-align: center;
+    border-bottom: 1px solid grey;
+    margin-bottom: 50px;
+}
+
+.section-1-shablons-padding-top {
+    padding-top: 30px;
+}
+
+/* User */
+.section-1-user {
+    padding-top: 60px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-user {
+    border: 2px solid black;
+}
+
+.td-user {
+    width: 33% !important;
+}
